@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Nav CSS starts */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #FFFFFF;
+    padding: 10px 30px;
+}
+nav div ul a{
+    text-decoration: none;
+    color: #575757;
+}
+nav div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.common-btn{
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    
+}
+/* Nav css ends */
+
+/* Hero css stars */
+
+
+.hero-parent{
+    background-image: url("banner.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hero-parent-first{
+    padding: 50px 40px 0px 0px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.hero-parent-second{
+    padding-top: 30px;
+    width: 500px;    
+}
+.hero-parent-third{
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    padding-top: 430px;
+}
+.hero-parent-third button{
+    padding: 15px 40px;
+    font-size: 20px;
+}
+/* Hero css ends */
+
+/* Meet speakers starts */
+
+.meet-speakers-parent img{
+    width: 500px;
+    height: 324px;
+    margin: 30px;
+}
+.meet-speakers-parent-all{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
+    grid-row: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.meet-speakers-parent h2{
+    text-align: center;
+    padding-top: 38px;
+}
+.text{
+    padding-left: 32px;
+}
+.text-color{
+    color: #2563EB;
+}
+
+/* Meet speakers ends */
+
+/* Secure Card starts */
+.secure-your-spot{
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+
