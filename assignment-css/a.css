@@ -182,12 +182,12 @@ nav{
     gap: 8px;
     padding: 20px;
 }
-.faq-card{
+/* .faq-card{
     border: 4px solid white;
     display: flex;
     flex-direction: column;
     gap: 5px;    
-}
+} */
 .faq-card-line{
     width: 50px;
     margin: auto;
