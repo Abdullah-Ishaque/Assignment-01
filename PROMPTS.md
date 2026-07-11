@@ -1,0 +1,1 @@
+I am currently building a webpage for DevConf 2026, in this page there are sections like hero banner, meet speakers, secure your spot. I want to add another section relevent to this. So give me a section design so that I can add it on my webpage and also design theme must be white. Make an image so that I can visualize my design.
