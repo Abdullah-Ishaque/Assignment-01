@@ -195,5 +195,59 @@ nav{
 .faq-icon{
     color: #2563EB;
 }
+/* faq ends */
+
+/* footer starts */
+
+.footer-parent{
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 200px;
 
 
+}
+.footer-child{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    margin-left: 150px;
+    height: 70px;
+    margin-top: 30px;
+}
+.footer-contact{
+    margin-right: 150px;
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+    gap: 14px;
+
+}
+.footer-logo-name{
+    display: flex;
+    gap: 3px;
+}.footer-contact-icon{
+    color: #FFFFFF;
+    padding-top: 20px;
+    
+}
+footer hr{
+    margin-top: 20px;
+}
+.footer-copy-right-parent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-copy-right-child{
+    margin: 20px 5px 60px 150px;
+}
+.footer-copy-right-policy ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 60px;
+    
+}
